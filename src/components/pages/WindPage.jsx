@@ -11,7 +11,7 @@ import {
 } from "@heroicons/react/24/outline";
 import axios from "axios";
 
-const API_BASE = "http://localhost:8000/api/v1/wind";
+const API_BASE = "https://energy-app.space/api/api/v1/wind";
 
 export default function WindPage() {
   const [turbines, setTurbines] = useState([]);

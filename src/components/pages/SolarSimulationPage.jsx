@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { PlusCircleIcon, TrashIcon } from "@heroicons/react/24/outline";
 
-const API_URL = "http://localhost:8000/api/v1/solar/solar_system";
+const API_URL = "https://energy-app.space/api/api/v1/solar/solar_system";
 
 export default function SolarSimulationPage() {
   const [solarSystems, setSolarSystems] = useState([]);

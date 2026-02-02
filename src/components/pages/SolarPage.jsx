@@ -8,7 +8,7 @@ import {
 } from "@heroicons/react/24/outline";
 import axios from "axios";
 
-const API_BASE = "http://localhost:8000/api/v1/solar";
+const API_BASE = "https://energy-app.space/api/api/v1/solar";
 
 export default function SolarSystemsListPage() {
     const [systems, setSystems] = useState([]);

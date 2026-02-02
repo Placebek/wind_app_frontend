@@ -6,7 +6,7 @@ import { ArrowLeftIcon } from "@heroicons/react/24/outline";
 import axios from "axios";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts";
 
-const API_BASE = "http://localhost:8000/api/v1/wind";
+const API_BASE = "https://energy-app.space/api/api/v1/wind";
 
 export default function WindTurbineDetailPage() {
   const { id } = useParams();

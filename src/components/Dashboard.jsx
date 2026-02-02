@@ -28,7 +28,7 @@ import {
   Bar,
 } from "recharts";
 
-const API_BASE = "http://localhost:8000/api/v1";
+const API_BASE = "https://energy-app.space/api/api/v1";
 
 export default function Dashboard() {
   const [stats, setStats] = useState({
