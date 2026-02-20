@@ -62,7 +62,7 @@ export default function Sidebar() {
 
       {/* Нижняя панель */}
       <div className="text-xs text-center text-gray-500 py-3 border-t border-gray-700">
-        {isOpen ? "@2025 Designed by Jake" : "v1.0"}
+        {isOpen ? "v1.0" : "v1.0"}
       </div>
     </aside>
   );
