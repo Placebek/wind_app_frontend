@@ -10,8 +10,8 @@ export default function SettingsPage() {
     gridExportEnabled: true,
     gridImportEnabled: true,
     simulationStep: 60, // минут
-    location: "Москва, Россия",
-    timezone: "Europe/Moscow",
+    location: "Караганда, Казахстан",
+    timezone: "Asia/Almaty",
   });
 
   const handleChange = (key, value) => {
